@@ -1,0 +1,79 @@
+/* src/components/News.css */
+
+/* Container for the entire news dashboard */
+.news-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Individual news article */
+.news-article {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.article-img {
+  width: fit-content;
+}
+.article-content {
+  align-self: center;
+  padding: 25px;
+}
+/* Headline style */
+.news-headline {
+  /* font-size: 1.5rem; */
+  color: #333;
+}
+
+/* Image style */
+.news-image {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Source and Hashtags */
+.news-info {
+  color: #777;
+  float: left;
+}
+
+/* Category filter dropdown */
+.category-filter {
+  font-size: 1rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Search filter input */
+.search-filter {
+  font-size: 1rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+@media (max-width: 1200px) {
+  .news-article {
+    flex-direction: column;
+  }
+}
+.app-logo img {
+  width: 40px;
+  height: 40px;
+}
+.app-name{
+  font-size: 1.5rem;
+  color: #333; 
+  margin: 0; 
+  display: inline-block;
+}
